@@ -84,6 +84,6 @@ Markets are non-deterministic. To model this, the app uses the following approac
 **Durgesh Kanzariya** *Aspiring Data Scientist | B.Tech IT Student*
 
 * [LinkedIn Profile](https://linkedin.com/in/durgesh-kanzariya)
-* [GitHub Profile](https://github.com/YourUsername)
+* [GitHub Profile](https://github.com/durgesh-kanzariya)
 
 Built with ❤️ using Python.
