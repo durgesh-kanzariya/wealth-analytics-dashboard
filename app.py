@@ -53,5 +53,17 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
 
+st.markdown("<br>", unsafe_allow_html=True)
+cols2 = st.columns([1, 2, 1])
+with cols2[1]:
+    st.markdown("""
+        <div class="feature-card" style="text-align: center; border-color: #f59e0b;">
+            <h3 style="color: #fcd34d;">🔥 FIRE Calculator</h3>
+            <p>Calculate your target portfolio for Financial Independence and Retire Early.</p>
+        </div>
+    """, unsafe_allow_html=True)
+    if st.button("Find My FIRE Number", use_container_width=True, type="primary"):
+        st.switch_page("pages/5_FIRE_Calculator.py")
+
 st.markdown("<hr style='border: 1px solid rgba(255,255,255,0.05); margin-top: 4rem;'>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #64748b;'>👈 Please select a tool from the sidebar to begin.</p>", unsafe_allow_html=True)
